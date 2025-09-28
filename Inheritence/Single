@@ -1,0 +1,13 @@
+# Single Inheritence 
+
+class A:
+    def readA(self):
+        print("Hello A ")
+
+class B(A):
+    def readB(Self):
+        print("Hello B")
+
+obj=B()
+obj.readA()
+obj.readB()
